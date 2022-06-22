@@ -1,45 +1,3 @@
-.cesta{
-
-background-image: url(https://imgur.com/zUnjvgn.jpg);
-background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    min-height: calc(100vh - 64px);
-}
-
-
-.pig{
-    background-image: url(https://imgur.com/rSCH4jX.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    min-height: calc(100vh - 64px);
-}
-
-
-.lupa{
-
-    background-image: url( https://imgur.com/ukiLrIy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    min-height: calc(100vh - 64px);
-    
-    }
-
-
-.carteira{
-    background-image: url(https://imgur.com/TksAPBG.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    min-height: calc(100vh - 64px);
-}
-
 .comoFunciona {
 
    color:black;
@@ -66,4 +24,17 @@ subtituloCard{
     color:black; 
   
 
+}
+
+.pergunta{
+
+    color:black;
+    font-size:25px !important;
+    margin-Bottom:30px !important; 
+    margin-Top:30px !important;
+    font-family: Arial, Helvetica, sans-serif !important; 
+    font-weight: bold !important;
+    text-align: left !important;
+    justify-content: left !important;
+    margin-left: 40px!important;
 }
