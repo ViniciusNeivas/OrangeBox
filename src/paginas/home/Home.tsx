@@ -25,13 +25,15 @@ function Home() {
 
             <Grid container style={{marginLeft: "32px"}}>
           <Box>
-            <Typography style={{color:"#AA836C", fontSize:"25px",marginBottom:"30px", marginTop:"30px",}}variant='h3' className='tituloHome'>Como Funciona</Typography>
+            <Typography variant='h3' className='comoFunciona'>
+                Como Funciona
+            </Typography>
           </Box>
         </Grid>
 
                 <Grid container justifyContent='center' alignItems='center'>
 
-                    <Grid container  justifyContent='center' alignItems='center' xs={3} item className='cardHome'>
+                    <Grid container  justifyContent='center' alignItems='center' xs={3}>
                         <Card className={classes.root}>
                             <CardActionArea>
                                 <CardMedia
@@ -40,11 +42,11 @@ function Home() {
                                     title="Lupa"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" style={{ fontFamily: "jaldi", fontSize: "15px", color: "#785846", fontWeight: "bold" }}>
+                                    <Typography gutterBottom variant="h5" component="h2" className="tituloCard">
                                         Encontre seus produtos favoritos
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p" style={{ fontFamily: "jaldi", fontSize: "px", color: "B6917B" }}>
-                                        Encontre seu produtos favoritos na loja 1
+                                    <Typography variant="body2" color="textSecondary" component="p" className ="subtituloCard">
+                                        Encontre seus produtos favoritos na loja 1
                                     </Typography>
 
                                 </CardContent>
@@ -62,10 +64,10 @@ function Home() {
                                     title="Cesta"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" style={{ fontFamily: "jaldi", fontSize: "15px", color: "#785846", fontWeight: "bold" }}>
+                                    <Typography gutterBottom variant="h5" component="h2" className="tituloCard">
                                         Separamos os produtos para você
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p" style={{ fontFamily: "jaldi", fontSize: "px", color: "B6917B" }}>
+                                    <Typography variant="body2" color="textSecondary" component="p" className ="subtituloCard">
                                         Uma equipe treinada fará a separação da sua compra
                                     </Typography>
 
@@ -83,11 +85,11 @@ function Home() {
                                     title="Economize"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" style={{ fontFamily: "jaldi", fontSize: "15px", color: "#785846", fontWeight: "bold" }}>
+                                    <Typography gutterBottom variant="h5" component="h2" className="tituloCard">
                                         Economize tempo e dinheiro
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p" style={{ fontFamily: "jaldi", fontSize: "px", color: "B6917B" }}>
-                                        Retire sua compra na loja ou escolha receber os produtos em sua casa.
+                                    <Typography variant="body2" color="textSecondary" component="p" className ="subtituloCard">
+                                        Retire sua compra na loja ou escolha receber em casa.
                                     </Typography>
 
                                 </CardContent>
@@ -104,10 +106,10 @@ function Home() {
                                     title="Carteira"
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="h2" style={{ fontFamily: "jaldi", fontSize: "15px", color: "#785846", fontWeight: "bold" }}>
+                                    <Typography gutterBottom variant="h5" component="h2" className="tituloCard">
                                         Pague suas compras com total segurança
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p" style={{ fontFamily: "jaldi", fontSize: "px", color: "B6917B" }}>
+                                    <Typography variant="body2" color="textSecondary" component="p" className ="subtituloCard">
                                         Clique aqui para verificar as formas de pagamentos
                                     </Typography>
 

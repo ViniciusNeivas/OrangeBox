@@ -24,11 +24,6 @@
 
 .textDecoration {
 
-    /* text-decoration: underline;
-    text-decoration-color: rgb(101, 53, 101) !important;
-    text-decoration-style: solid !important;
-    height: 19px; */
-
     border-bottom: solid rgb(101, 53, 101) 5px;
     width: 240px;
 
